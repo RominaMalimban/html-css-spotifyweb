@@ -26,9 +26,17 @@ body{
     justify-content: space-between;
 }
 
-#logo{
+.nav-bar img{
+    filter: invert(44%) sepia(0%) saturate(209%) hue-rotate(189deg) brightness(97%) contrast(90%);
+}
+#logo-desktop #logo{
     height: 40px;
     margin-bottom: 30px;
+}
+
+#logo-mobile{
+    display: none;
+    width: 35px;
 }
 
 .nav-bar{
@@ -116,3 +124,27 @@ footer{
 
 
 /*********************** RESPONSIVE ***********************/
+
+@media screen and (max-width: 340px){
+    /* section aside */
+
+    .aside{
+        align-items: center;
+        /* debug */
+        width: 70px;
+    }
+
+    .aside .txt-nav-bar{
+        display: none;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
+
+    #logo-mobile{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+}
