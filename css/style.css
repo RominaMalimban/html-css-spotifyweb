@@ -21,15 +21,14 @@ body{
 .aside{
     width: 230px;
     height: calc(100vh - 90px);
-    /* debug */
-    background-color: coral;
+    
+    background-color: #000;
 }
 
 .main{
     width: calc(100vw - 230px);
     height: calc(100vh - 90px);
-    /* debug */
-    background-color: crimson;
+    background-color: #141922;
 }
 
 
@@ -39,8 +38,7 @@ body{
 /* footer */
 footer{
     height: 90px;
-    /* debug */
-    background-color: cornflowerblue;
+    background-color: #282828;
 
 }
 
