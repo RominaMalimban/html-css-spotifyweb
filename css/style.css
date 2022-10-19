@@ -161,4 +161,11 @@ footer{
         margin-bottom: 10px;
     }
 
-}
+
+    /* main */
+    .main{
+        width: calc(100vw - 70px);
+        
+    }
+    
+}   
