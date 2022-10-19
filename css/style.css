@@ -8,7 +8,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    font-size: 14px;
 }
 
 a{
@@ -33,6 +32,7 @@ ul li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 13px;
 }
 
 .nav-bar img{
@@ -59,7 +59,7 @@ ul li{
     margin-right: 10px;
 }
 
-.aside a{
+.aside a, .gray{
     color: #676767;
 }
 
@@ -100,13 +100,16 @@ ul li{
     display: flex;
 }
 
-.aside-bottom h5{
+.aside-bottom .txt-nav-bar{
     margin-left: 10px;
 }
+
 .aside hr{
     display: block;
     margin: 10px 0;
 }
+
+
 
 
 
