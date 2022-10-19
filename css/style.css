@@ -8,6 +8,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* regole main */
@@ -29,6 +34,7 @@ body{
 .nav-bar img{
     filter: invert(44%) sepia(0%) saturate(209%) hue-rotate(189deg) brightness(97%) contrast(90%);
 }
+
 #logo-desktop #logo{
     height: 40px;
     margin-bottom: 30px;
