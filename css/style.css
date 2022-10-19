@@ -1,22 +1,48 @@
 /* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 
+/* regole main */
 
+.container{
+    display: flex;
+    /* debug */
+    
+}
 
+.aside{
+    width: 230px;
+    height: calc(100vh - 90px);
+    /* debug */
+    background-color: coral;
+}
 
-
-
-
-/* main */
-
-
+.main{
+    width: calc(100vw - 230px);
+    height: calc(100vh - 90px);
+    /* debug */
+    background-color: crimson;
+}
 
 
 
 
 
 /* footer */
+footer{
+    height: 90px;
+    /* debug */
+    background-color: cornflowerblue;
 
+}
 
 
 
