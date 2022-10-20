@@ -76,8 +76,17 @@ img{
 
 #playlist{
     margin-top: 30px;
-    padding-inline:20px;
-    max-height: 270px;
+    padding-inline:20px; 
+}
+
+.scroll{
+    height: 200px;
+    overflow-y: auto;
+    /* debug */
+    /* background-color: coral; */
+}
+
+.scroll ul li{
     overflow:hidden;
 }
 
@@ -114,11 +123,12 @@ img{
 
 .aside-btm{
     padding: 20px;
+    height: calc (100% - 90px);
 }
 
 .aside-bottom{
     display: flex;
-    height: calc (100% - 90px);
+   
 }
 
 .aside-bottom .txt-nav-bar{
