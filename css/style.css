@@ -281,6 +281,9 @@ footer i{
 
 /*********************** RESPONSIVE ***********************/
 
+
+/* spotify md */
+
 @media screen and (max-width:963px){
     /* footer */
     footer i{
@@ -319,8 +322,40 @@ footer i{
     }
 }
 
+/* spotify s */
 
+@media screen and (max-width: 600px){
+    /* footer */
+    .center-footer i{
+        font-size: .8em;
+    }
+    
+    .left-footer .dx{
+        width: 20%;
+    }
+    
+    .center-footer .fa-circle-play{
+        padding: 0 5px;
+        font-size: 1em;
+    }
+    
+    .row-2 span{
+        font-size: 8px;
+        padding: 0 3px;
+    }
+    
+    .row-2 hr{
+        width: 150px;
+    }
+
+    .right-footer hr{
+        width: 50px;
+    }
+}
+
+/* spotify xs */
 @media screen and (max-width: 340px){
+
     /* section aside */
 
     .aside{
