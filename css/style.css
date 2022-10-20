@@ -77,6 +77,8 @@ img{
 #playlist{
     margin-top: 30px;
     padding-inline:20px;
+    height: 270px;
+    overflow-y: auto;
 }
 
 .flex-square{
@@ -280,8 +282,43 @@ footer i{
 /*********************** RESPONSIVE ***********************/
 
 @media screen and (max-width:963px){
-   
+    /* footer */
+    footer i{
+        padding: 0 3px;
+    }
+
+    .song span{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    
+    .center-footer i{
+        font-size: 1em;
+    }
+    
+    .center-footer .fa-circle-play{
+        padding: 0 10px;
+        font-size: 1.3em;
+    }
+    
+    .row-2{
+        margin-top: 10px;
+    }
+    
+    .row-2 span{
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    
+    .row-2 hr{
+        width: 250px;
+    }
+
+    .right-footer hr{
+        width: 70px;
+    }
 }
+
 
 @media screen and (max-width: 340px){
     /* section aside */
