@@ -137,6 +137,7 @@ img{
     background-color: #141922;
 }
 
+/* header */
 header{
     height: 90px;
     position: fixed;
@@ -156,12 +157,33 @@ header a{
     padding: 10px 30px;
 }
 
+.container-main{
+    margin: 110px 20px 0;
+}
 
+.container-main nav ul{
+    display: flex;
+    justify-content: center;
+}
 
+.container-main nav ul li{
+    padding: 0 10px;
+}
 
+.green-line{
+    position: relative;
+}
 
-
-
+.green-line hr{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #adff2f;
+    border: 1px solid #adff2f;
+    position: absolute;
+    bottom: -5px;
+    left: 50px;
+}
 
 
 /* footer */
