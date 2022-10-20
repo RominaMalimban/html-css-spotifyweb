@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Web</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
@@ -28,34 +29,33 @@
                     <img src="img/logo-small.svg" alt="logo Spotify">
                 </div>
 
-                <div class="nav-bar">
-                    <div>
-                        <img src="img/home.svg" alt="home">  
-                    </div>
-                    <div class="txt-nav-bar">
-                        <a href="#">Home</a>
-                    </div>
-                </div>
-    
-                <div class="nav-bar">
-                    <div>
+                <ul >
+                    <li class="nav-bar" id="home">
+                        <img src="img/home.svg" alt="home">
+                        <div class="txt-nav-bar">
+                            <a href="#">Home</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul >
+                    <li class="nav-bar">
                         <img src="img/search.svg" alt="search">  
-                    </div>
-                    <div class="txt-nav-bar">
-                        <a href="#">Cerca</a>
-                    </div>
-                    
-                </div>
+                        <div class="txt-nav-bar">
+                            <a href="#">Search</a>
+                        </div>
+                    </li>
+                </ul>
     
-                <div class="nav-bar">
-                    <div>
-                        <img src="img/libreria.svg" alt="library">  
-                    </div>
-                    <div class="txt-nav-bar">
-                        <a href="#">La tua libreria</a>
-                    </div>
-                </div>
-                
+                <ul >
+                    <li class="nav-bar">
+                        <img src="img/libreria.svg" alt="library">   
+                        <div class="txt-nav-bar">
+                            <a href="#">La tua libreria</a>
+                        </div>
+                    </li>
+                </ul>
+    
                 <!-- playlist -->
                 <div id="playlist">
                     <h4 class="txt-nav-bar">PLAYLIST</h4>
@@ -86,7 +86,7 @@
             <!-- chiusura parte superiore sezione laterale -->
             
             <!-- parte inferiore sezione laterale -->
-            <div>
+            <div class="aside-btm">
                 <div class="aside-bottom gray">
                     <a href="#"><i class="fa-regular fa-circle-down"></i></a>
                     <div class="txt-nav-bar">
@@ -131,12 +131,15 @@
                 <img src="img/sinister.jpeg" alt="immagine sinister">  
                 <div>
                     <span>Sinister</span>
-                    <span class="gray">Brano nome</span>
+                    <span class="gray hover">Brano nome</span>
                 </div>
                     
             </div>
-            <i class="fa-regular fa-heart gray"></i>
-            <i class="fa-regular fa-folder gray"></i>
+            <div>
+                <i class="fa-regular fa-heart gray hover"></i>
+                <i class="fa-regular fa-folder gray hover"></i>
+            </div>
+           
         </div>
         <!-- chiusura col 1 -->
 
