@@ -27,6 +27,7 @@ img{
 /* regole sezione laterale */
 .container{
     display: flex; 
+    overflow: hidden;
 }
 
 .aside{
@@ -77,18 +78,19 @@ img{
 #playlist{
     margin-top: 30px;
     padding-inline:20px; 
+    overflow-y: auto;
 }
 
 .scroll{
-    height: 200px;
-    overflow-y: auto;
+    /* height: 100px; */
+    /* overflow-y: auto; */
     /* debug */
     /* background-color: coral; */
 }
 
-.scroll ul li{
+/* .scroll ul li{
     overflow:hidden;
-}
+} */
 
 .flex-square{
     display: flex;
@@ -121,9 +123,11 @@ img{
     margin-bottom: 20px;
 }
 
+
 .aside-btm{
+    
     padding: 20px;
-    height: calc (100% - 90px);
+    /* height: calc (100% - 90px); */
 }
 
 .aside-bottom{
@@ -145,6 +149,11 @@ img{
     width: calc(100vw - 230px);
     height: calc(100vh - 90px);
     background-color: #141922;
+    
+}
+
+.scroll-main{
+    overflow-y: auto;
 }
 
 /* header */
@@ -169,6 +178,7 @@ header a{
 
 .container-main{
     margin: 110px 20px 0;
+
 }
 
 .container-main nav ul{
@@ -423,7 +433,7 @@ footer i{
     /* main */
     .main{
         width: calc(100vw - 70px);
-        
+        overflow: auto;
     }
     
     /* footer */
