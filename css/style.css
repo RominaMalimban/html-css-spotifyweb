@@ -78,7 +78,7 @@ img{
     margin-top: 30px;
     padding-inline:20px;
     max-height: 270px;
-    overflow-y: auto;
+    overflow:hidden;
 }
 
 .flex-square{
