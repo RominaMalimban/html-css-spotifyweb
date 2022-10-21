@@ -333,6 +333,13 @@ footer i{
     filter: brightness(0) invert(1);
 }
 
+.main header a{
+    transition: .5ms;
+}
+
+.main header a:hover{
+    font-size: 1.1em;
+}
 
 .layover{
     position: relative;
