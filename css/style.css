@@ -115,10 +115,6 @@ img{
     margin-bottom: 10px;
 }
 
-/* .scroll{
-    overflow-y: auto;
-} */
-
 .aside-btm{
     padding-inline: 20px;
     height: 70px;
@@ -171,7 +167,7 @@ header a{
 }
 
 .container-main{
-    margin: 90px 20px 0 20px;
+    margin: 90px 20px 0 ;
     overflow-y: auto;
     height: calc(100% - 90px);
     overflow-x: hidden;
@@ -208,12 +204,34 @@ header a{
 
 .albums{
     display: flex; 
+    flex-wrap: wrap;
     margin-inline: -10px;
 }
 
 .album{
     width: calc(100% / 6 - 20px);
     margin: 10px;
+}
+
+.layover{
+    position: relative;
+}
+
+.layover span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 50px;
+    display: none;
+}
+
+.album .layover:hover span{
+    display: block;
+}
+
+.album .layover:hover img{
+    opacity: 0.3;
 }
 
 .album h4, .album h5{
@@ -344,7 +362,7 @@ footer i{
     transition: .5ms;
 }
 
-.fa-circle-play:hover{
+footer .fa-circle-play:hover{
     font-size: 1.9em;
 }
 
