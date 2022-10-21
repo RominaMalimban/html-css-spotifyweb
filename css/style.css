@@ -626,7 +626,6 @@ footer .fa-circle-play:hover{
     }
 }
 
-
 /* spotify xs */
 
 @media screen and (max-width: 465px){
@@ -634,6 +633,7 @@ footer .fa-circle-play:hover{
     .aside{
         width: 70px;
         height: calc(100vh - 90px);
+        padding-bottom: 60px;
     }
     
     .aside .txt-nav-bar{
@@ -649,17 +649,20 @@ footer .fa-circle-play:hover{
         margin: 20px 20px 10px 20px;
     }
     
+    .aside-btm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .aside-btm hr{
+        display: block;
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
+    .aside-btm .fa-circle-user{
+        font-size: 1.6em;
+    }
 
     /* main */
     .main{
