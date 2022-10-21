@@ -371,7 +371,7 @@ footer i{
 }
 
 footer .fa-circle-play:hover{
-    font-size: 1.9em;
+    scale: 1.5;
 }
 
 .style-hr-hover{
