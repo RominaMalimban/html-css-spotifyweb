@@ -392,8 +392,9 @@ footer .fa-circle-play:hover{
     display: none;
 }
 
-/*********************** RESPONSIVE ***********************/
 
+
+/*********************** RESPONSIVE ***********************/
 
 /* spotify md */
 
@@ -493,41 +494,76 @@ footer .fa-circle-play:hover{
 
 @media screen and (max-width: 600px){
 
-    /* section aside */
-
+    /* aside */
     .aside{
-        align-items: center;
-        /* debug */
-        width: 70px;
-    }
-
-    .aside .txt-nav-bar{
-        display: none;
-    }
-
-    #logo-desktop{
-        display: none;
-    }
-
-    #logo-mobile{
-        display: block;
-        margin: 20px 20px 10px;
+        width: 160px;
     }
     
-    #home{
-        padding-left: 20px;
-        border-left: none;
+    .aside-top{
+        height: 180px;
     }
-
-    .fa-circle-user{
-        font-size: 2em;
+    
+    #logo-desktop #logo{
+        height: 35px;
     }
-
+    
+    .nav-bar a{
+        font-size: .7em;
+    }
+    
+    
+    #playlist{
+        margin-top: 15px;
+        padding-inline:20px; 
+    }
+    
+    .flex-square{
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    #playlist li{
+        margin-bottom: 5px;
+    }
+    
+    .aside-btm{
+        padding: 20px;
+        height: 50px;
+        margin-bottom:0;
+    }
+    
     /* main */
     .main{
-        width: calc(100vw - 70px);
+        width: calc(100vw - 160px);
+    }
+ 
+    header{
+        width: calc(100vw - 160px);
+        height: 55px;
+    }
     
-        
+    /* nav bar */
+    .container-main nav ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .container-main nav ul li{
+        width: calc(100% / 3);
+        padding:  5px;
+        text-align: center;
+    }
+    
+    .green-line hr{
+        width: 20px;
+        height: 2px;
+        left: 60px;
+    }
+    
+    .album{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
     }
     
     /* footer */
