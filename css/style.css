@@ -149,7 +149,6 @@ img{
     width: calc(100vw - 230px);
     height: calc(100vh - 90px);
     background-color: #141922;
-    
 }
 
 .scroll-main{
@@ -177,8 +176,10 @@ header a{
 }
 
 .container-main{
-    margin: 110px 20px 0;
-
+    margin: 90px 20px 0;
+    overflow-y: auto;
+    height: calc(100% - 180px);
+    overflow-x: hidden;
 }
 
 .container-main nav ul{
@@ -187,7 +188,7 @@ header a{
 }
 
 .container-main nav ul li{
-    padding: 0 10px;
+    padding:  10px;
     font-size: 14px;
 }
 
@@ -202,14 +203,14 @@ header a{
     background-color: #adff2f;
     border: 1px solid #adff2f;
     position: absolute;
-    bottom: -5px;
-    left: 50px;
+    bottom: 0;
+    left: 45px;
 }
-
 
 .container-main section{
     margin: 20px 0;
 }
+
 .albums{
     display: flex; 
     margin-inline: -10px;
@@ -224,15 +225,17 @@ header a{
     text-align: center;
 }
 
-
 .album h4{
     margin: 10px 0;
 }
 
+.container-main .mtb{
+    margin: 10px 0 15px;
+}
 
-
-
-
+.albums .round{
+    border-radius: 50%;
+}
 
 /* footer */
 footer{
@@ -428,12 +431,11 @@ footer i{
         font-size: 2em;
     }
 
-   
-
     /* main */
     .main{
         width: calc(100vw - 70px);
-        overflow: auto;
+        overflow: hidden;
+        
     }
     
     /* footer */
