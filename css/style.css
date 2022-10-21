@@ -594,3 +594,69 @@ footer .fa-circle-play:hover{
     }
 }
 
+
+/* spotify xs */
+
+@media screen and (max-width: 465px){
+    /* aside */
+    .aside{
+        width: 70px;
+    }
+    
+    .aside .txt-nav-bar{
+        display: none;
+    }
+
+    #logo-desktop{
+        display: none;
+    }
+
+    #logo-mobile{
+        display: block;
+        margin: 20px 20px 10px 20px;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    /* main */
+    .main{
+        width: calc(100vw - 70px);
+    }
+ 
+    header{
+        width: calc(100vw - 70px);
+        height: 55px;
+    }
+    
+    /* nav bar */
+    .container-main nav ul{
+        justify-content: center;
+    }
+    
+    .container-main nav ul li{
+        width: calc(100% / 4);
+        padding:  5px 0;
+        text-align: center;
+    }
+    
+    .green-line hr{
+        width: 20px;
+        height: 2px;
+        left: 35px;
+    }
+    
+    .album{
+        width: calc(100% / 2 - 20px);
+        margin: 10px;
+    }
+}
