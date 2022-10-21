@@ -317,9 +317,9 @@ footer i{
 }
 
 .right-footer hr{
-    display: inline-block;
     width: 140px;
 }
+
 
 /**********************REGOLE HOVER****************************/
 .nav-bar:hover img, 
@@ -370,18 +370,29 @@ footer .fa-circle-play:hover{
     display: none;
 }
 
-.style-hr-green{
+.style-hr-green, .right-footer .style-hr-green-small{
     background: #adff2f;
     background: linear-gradient(to right,  #adff2f 50%,#5a5a5a 50%);
     height: 5px;
 }
 
-.style-hr-hover .fa-circle{
+.right-footer .style-hr-green-small{
+    width: 140px;
+}
+
+.style-hr-hover .fa-circle, .style-hr-hover-small .fa-circle{
     font-size: 10px;
     color: #adff2f;
     position: absolute;
     top: -3px;
+}
+
+.style-hr-hover .fa-circle{
     left: 180px;
+}
+
+.style-hr-hover-small .fa-circle{
+    left: 60px;
 }
 
 .row-2:hover  .style-hr-hover{
@@ -392,6 +403,18 @@ footer .fa-circle-play:hover{
     display: none;
 }
 
+.style-hr-hover-small{
+    position: relative;
+    display: none;
+}
+
+.right-footer:hover .style-hr-hover-small{
+    display: block;
+}
+
+.right-footer:hover .style-hr{
+    display: none;
+}
 
 
 /*********************** RESPONSIVE ***********************/
@@ -601,6 +624,7 @@ footer .fa-circle-play:hover{
     /* aside */
     .aside{
         width: 70px;
+        height: calc(100vh - 90px);
     }
     
     .aside .txt-nav-bar{
@@ -616,7 +640,7 @@ footer .fa-circle-play:hover{
         margin: 20px 20px 10px 20px;
     }
     
-    
+
 
 
 
