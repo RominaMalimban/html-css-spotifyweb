@@ -35,6 +35,7 @@ img{
     height: calc(100vh - 90px);
     background-color: #000;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .aside-top{
@@ -140,9 +141,6 @@ img{
     width: calc(100vw - 230px);
     height: calc(100vh - 90px);
     background-color: #141922;
-}
-
-.scroll-main{
     overflow-y: auto;
 }
 
@@ -157,6 +155,8 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 header a{
@@ -168,9 +168,7 @@ header a{
 
 .container-main{
     margin: 90px 20px 0 ;
-    overflow-y: auto;
     height: calc(100% - 90px);
-    overflow-x: hidden;
 }
 
 .container-main nav ul{
@@ -211,27 +209,6 @@ header a{
 .album{
     width: calc(100% / 6 - 20px);
     margin: 10px;
-}
-
-.layover{
-    position: relative;
-}
-
-.layover span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    font-size: 50px;
-    display: none;
-}
-
-.album .layover:hover span{
-    display: block;
-}
-
-.album .layover:hover img{
-    opacity: 0.3;
 }
 
 .album h4, .album h5{
@@ -354,6 +331,27 @@ footer i{
     filter: brightness(0) invert(1);
 }
 
+.layover{
+    position: relative;
+}
+
+.layover span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 50px;
+    display: none;
+}
+
+.album .layover:hover span{
+    display: block;
+}
+
+.album .layover:hover img{
+    opacity: 0.3;
+}
+
 .flex-square:hover .square{
     background-color: #fff;
 }
@@ -450,7 +448,7 @@ footer .fa-circle-play:hover{
     /* main */
     .main{
         width: calc(100vw - 70px);
-        overflow: hidden;
+    
         
     }
     
