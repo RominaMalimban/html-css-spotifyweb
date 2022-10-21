@@ -34,10 +34,11 @@ img{
     width: 230px;
     height: calc(100vh - 90px);
     background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 13px;
+    
+}
+
+.aside-top{
+    height: 180px;
 }
 
 .nav-bar img{
@@ -58,7 +59,7 @@ img{
     display: flex;
     align-items: center;
     width: 100%;
-    padding: 5px 20px;
+    padding: 2px 20px;
 }
 
 .nav-bar img{
@@ -73,24 +74,15 @@ img{
 
 .aside a, .gray{
     color: #676767;
+    font-size: 12px;
 }
 
 #playlist{
-    margin-top: 30px;
+    margin-top: 20px;
     padding-inline:20px; 
-    overflow-y: auto;
+    height: calc(100% - 250px);
+    overflow: hidden;
 }
-
-.scroll{
-    /* height: 100px; */
-    /* overflow-y: auto; */
-    /* debug */
-    /* background-color: coral; */
-}
-
-/* .scroll ul li{
-    overflow:hidden;
-} */
 
 .flex-square{
     display: flex;
@@ -120,14 +112,17 @@ img{
 }
 
 #playlist li{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
+.scroll{
+    overflow-y: auto;
+}
 
 .aside-btm{
-    
-    padding: 20px;
-    /* height: calc (100% - 90px); */
+    padding-inline: 20px;
+    height: 70px;
+    margin-bottom:0;
 }
 
 .aside-bottom{
@@ -176,9 +171,9 @@ header a{
 }
 
 .container-main{
-    margin: 90px 20px 0;
+    margin: 90px 20px 0 20px;
     overflow-y: auto;
-    height: calc(100% - 180px);
+    height: calc(100% - 90px);
     overflow-x: hidden;
 }
 
@@ -204,7 +199,7 @@ header a{
     border: 1px solid #adff2f;
     position: absolute;
     bottom: 0;
-    left: 45px;
+    left: 40px;
 }
 
 .container-main section{
@@ -360,6 +355,9 @@ footer i{
 /* spotify md */
 
 @media screen and (max-width:963px){
+
+    /* main */
+
     /* footer */
     footer i{
         padding: 0 3px;
