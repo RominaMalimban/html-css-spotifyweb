@@ -679,6 +679,10 @@ footer .fa-circle-play:hover{
         justify-content: center;
     }
     
+    .container-main{
+        margin-top: 70px;
+    }
+
     .container-main nav ul li{
         width: calc(100% / 4);
         padding:  5px 0;
