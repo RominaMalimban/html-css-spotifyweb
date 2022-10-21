@@ -328,9 +328,11 @@ footer i{
 .aside-bottom:hover span, 
 .aside-bottom:hover a,
 .flex-square:hover .txt-nav-bar,
-.hover:hover{
+.hover:hover,
+.container-main nav ul li:hover{
     filter: brightness(0) invert(1);
 }
+
 
 .layover{
     position: relative;
