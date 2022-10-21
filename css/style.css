@@ -432,30 +432,26 @@ footer .fa-circle-play:hover{
     .container-main nav ul a{
         font-size: .7em;
     }
-
-    .green-line{
-        position: relative;
-    }
     
     .green-line hr{
-        display: block;
-        width: 30px;
-        height: 3px;
-        background-color: #adff2f;
-        border: 1px solid #adff2f;
-        position: absolute;
-        bottom: 0;
         left: 25px;
     }
+    
+    /* main */
     
     .album{
         width: calc(100% / 4 - 20px);
         margin: 10px;
     }
-
-
-
-
+    
+    .album h4, .album h5{
+        font-size: .7em;
+    }
+    
+    .album h4{
+        margin: 7px 0;
+    }
+    
     /* footer */
     footer i{
         padding: 0 3px;
