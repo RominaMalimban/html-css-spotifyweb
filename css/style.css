@@ -34,7 +34,7 @@ img{
     width: 230px;
     height: calc(100vh - 90px);
     background-color: #000;
-    
+    overflow: hidden;
 }
 
 .aside-top{
@@ -81,7 +81,7 @@ img{
     margin-top: 20px;
     padding-inline:20px; 
     height: calc(100% - 250px);
-    overflow: hidden;
+    overflow-y: auto;
 }
 
 .flex-square{
@@ -115,9 +115,9 @@ img{
     margin-bottom: 10px;
 }
 
-.scroll{
+/* .scroll{
     overflow-y: auto;
-}
+} */
 
 .aside-btm{
     padding-inline: 20px;
