@@ -417,18 +417,22 @@ footer .fa-circle-play:hover{
         font-size: .6em;
     }
     
+    /* nav bar */
     .container-main nav ul{
-        display: block;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     
     .container-main nav ul li{
-        display: inline-block;
-        
-        padding:  10px;
-        font-size: 10px;
+        width: calc(100% / 5);
+        padding:  5px;
     }
     
+    .container-main nav ul a{
+        font-size: .7em;
+    }
+
     .green-line{
         position: relative;
     }
@@ -441,7 +445,7 @@ footer .fa-circle-play:hover{
         border: 1px solid #adff2f;
         position: absolute;
         bottom: 0;
-        left: 40px;
+        left: 25px;
     }
     
     .album{
